@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.catuche.Aragua-Potencia"
+    version   = "1.0.0">
+	<name>Aragua Potencia 2013-2017</name>
+	<description>
+	    Aplicación Movil para el plan regional "Aragua Potencia".
+	</description>
+	
+	<author href="https://www.catuche.com.ve" email="rodriguez.hectoralejandro@gmail.com">
+	    Héctor Rodriguez V. -- Catuche
+	</author>
+	<icon src="asset/icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="asset/icons/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="asset/icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="asset/icons/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+	
+	<gap:splash src="asset/splash/android/ldpi_p.png" gap:platform="android" gap:density="ldpi" />
+	<gap:splash src="asset/splash/android/mdpi_p.png" gap:platform="android" gap:density="mdpi" />
+	<gap:splash src="asset/splash/android/hdpi_p.png" gap:platform="android" gap:density="hdpi" />
+	<gap:splash src="asset/splash/android/xhdpi_p.png" gap:platform="android" gap:density="xhdpi" />
+</widget>
