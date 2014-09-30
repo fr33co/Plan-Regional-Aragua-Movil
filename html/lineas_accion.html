@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<script src="../public/js/jquery.min.js"></script>
 	<script src="../public/jquery.mobile/jquery.mobile-1.4.4.min.js"></script>
+    <script type="text/javascript">
+        $(document).bind("mobileinit", function(){
+            $.mobile.defaultPageTransition = 'none';
+        });
+    </script>
 </head>
 <body>
     <div data-role="page" data-theme="a" id="demo-page" class="my-page">
